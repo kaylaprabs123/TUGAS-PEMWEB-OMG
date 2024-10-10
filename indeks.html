@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halaman Utama</title>
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        .background {
+            background-image: url('profil.jpg'); 
+            height: 100%;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            color: white;
+            text-align: center;
+        }
+        h1 {
+            font-size: 4rem;
+            margin: 0;
+        }
+        p {
+            font-size: 1.5rem;
+            margin-top: 10px;
+        }
+        .about-btn {
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 1.2rem;
+            background-color: #FFB200;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        .about-btn:hover {
+            background-color: #96C9F4;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <div class="background">
+        <h1>Selamat Datang di Website Saya</h1>
+        <p>Tempat saya menyimpan ide-ide unik</p>
+        <button class="about-btn" onclick="window.location.href='about.html'">About</button>
+    </div>
+</body>
+</html>
